@@ -7,7 +7,7 @@ EE228 课程大作业，利用3D骨架控制3D卡通人物。
 # Maya 环境配置
 
 在Maya官网(https://www.autodesk.com/products/maya/overview?term=1-YEAR)
-中下载Maya2020并进行安装，用户有30天的试用期
+中下载Maya2020并进行安装，有30天的试用期
 
 
 
@@ -18,8 +18,6 @@ EE228 课程大作业，利用3D骨架控制3D卡通人物。
 3)	在手动匹配关节点后，运行transfer.py，设置use_online_model=True，生成obj序列。
 4)	将mtl文件中的绝对路径更改为相对路径，并将fbm文件夹下的贴图放在生成的序列中进行贴图。
 5)	运行vis.py, 设置use_online¬_model=True，生成mp4文件
-
-
 
 
 
