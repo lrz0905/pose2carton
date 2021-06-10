@@ -6,7 +6,8 @@ EE228 课程大作业，利用3D骨架控制3D卡通人物。
 
 # Maya 环境配置
 
-在Maya官网(https://www.autodesk.com/products/maya/overview?term=1-YEAR)中下载Maya2020并进行安装，用户有30天的试用期
+在Maya官网(https://www.autodesk.com/products/maya/overview?term=1-YEAR)
+中下载Maya2020并进行安装，用户有30天的试用期
 
 
 
