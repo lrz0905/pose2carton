@@ -6,19 +6,19 @@ EE228 课程大作业，利用3D骨架控制3D卡通人物。
 
 # Maya 环境配置
 
-这里请简单描述你配置Maya环境的过程。
+在Maya官网(https://www.autodesk.com/products/maya/overview?term=1-YEAR)中下载Maya2020并进行安装，用户有30天的试用期
 
 
 
 # 匹配流程
 
-这里请简单描述你熟悉/使用 匹配代码的流程，可以简述对代码的理解/各个函数作用等。
+1)	从3D模型网站中下载模型，要求模型为T-posed。
+2)	在终端中运行mayapy fbx_parser.py xxx.fbx，得到.txt，.obj和fbm文件夹。
+3)	在手动匹配关节点后，运行transfer.py，设置use_online_model=True，生成obj序列。
+4)	将mtl文件中的绝对路径更改为相对路径，并将fbm文件夹下的贴图放在生成的序列中进行贴图。
+5)	运行vis.py, 设置use_online¬_model=True，生成mp4文件
 
 
-
-# 新增脚本说明
-
-如果你写了自己的脚本来处理数据或进行可视化，请在这里进行相关说明(如何使用等)； 如果没有，请忽略该模块。
 
 
 
