@@ -16,7 +16,7 @@ EE228 课程大作业，利用3D骨架控制3D卡通人物。
 1)	从3D模型网站中下载模型，要求模型为T-posed。
 2)	在终端中运行mayapy fbx_parser.py xxx.fbx，得到.txt，.obj和fbm文件夹。
 3)	在手动匹配关节点后，运行transfer.py，设置use_online_model=True，生成obj序列。
-4)	将mtl文件中的绝对路径更改为相对路径，并将fbm文件夹下的贴图放在生成的序列中进行贴图。
+4)	将mtl文件中的绝对路径更改为相对路径，并将fbm文件夹下的图片放在生成的序列中进行贴图。
 5)	运行vis.py, 设置use_online_model=True，生成mp4文件
 
 
